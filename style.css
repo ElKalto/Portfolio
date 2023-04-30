@@ -1,0 +1,77 @@
+.Menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    z-index: 999;
+  }
+  
+  .Nombre {
+    margin-right: auto;
+    margin-left: 50px;
+    color:white;
+  }
+  
+  
+  .Lista li{
+  list-style: none;
+  display: inline-block;
+  background-color: rgb(117, 117, 155);
+  border-radius: 10px;
+  padding: 3px;
+  padding: 10px;
+  box-shadow: 20px;
+  align-self: flex-end;
+  margin-right: 50px;
+  }
+  
+  .Descripcion {
+    margin-top: 100px;
+    margin-right: 150px;
+    margin-left: 50px;
+  }
+  
+  img {
+    width: 300px;
+    height: 450px;
+    margin-left: 100px;
+    margin-top: 100px;
+  }
+  
+  .Presentacion {
+    display: flex;
+    background-color: aqua;
+    width: 100vw;
+    height: 660px;
+  }
+  
+  .Formacion{
+    background-color: brown;
+    width: 100vw;
+    height: 660px;
+  }
+  .Formacion p{
+    color: white;
+  }
+  
+  .Experiencia{
+    background-color: crimson;
+    width: 100vw;
+    height: 660px;
+  }
+  .Experiencia p{
+    color: white;
+  }
+  
+  .Proyectos{
+    background-color: darksalmon;
+    width: 100vw;
+    height: 660px;
+  }
+  .Proyectos p {
+    color: white;
+  }
