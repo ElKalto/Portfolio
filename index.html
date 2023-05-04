@@ -4,57 +4,89 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio</title>
+  <title>Document</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="Menu">
-    <div class="Nombre">Ivan Alvarez Gonzalez</div>
-    <div>
-      <ul class="Lista">
-        <li><a href="#Presentacion">Presentacion</a></li>
-        <li><a href="#Formacion">Formacion</a></li>
-        <li><a href="#Experiencia">Experiencia profesional</a></li>
-        <li><a href="#Proyectos">Proyectos</a></li>
-      </ul>
-    </div>
-  </div>
-  <div class="Presentacion" id="Presentacion">
-    <div><img src="foto.jpg" alt=""></div>
-    <div>
-      <p class="Descripcion">
-        <h2>Sobre mí</h2>
-        <h3>¿Qué servicios hago?</h3>
-        <h4>Soy estudIante de desarrollo de aplicaciones multiplataforma lo que incluye :
-            <ul class="lista2">
-                <li>Desarrollo de paginas web</li>
-                <li>Programacion en Java</li>
-                <li>Gestor de bases de datos MySQL</li>
-            </ul>
-        <br>
-        Actualmente estoy estudiando el modulo superior de aplicaciones multiplataforma, para mi es importante estar continuamente aprendiendo y adquiriendo nuevas habilidades en función a las actuales y futuras demandas y tendencias tecnológicas en el campo del diseño y desarrollo de aplicaciones web en general.
-        <br>
-        Apasionado con el trabajo que realizo, ofreciendo y aportando mis conocimientos, habilidades y experiencia, así como nuevas ideas, soluciones, personalización y seguimiento de calidad al cliente y su objetivo en cada proyecto.</h4></p>
-    </div>
-  </div>
-  <div class="Formacion" id="Formacion">
-    <div class="TextoFormacion">
-        <ul>
-            <li>Html5</li>
-            <li>Ccs3, Flexbox, Css Grid</li>
-            <li>Responsive Web Design</li>
-            <li>Accesibilidad y Usabilidad</li>
-            <li>Programas:Visual Studio Code, Dreamweaver CC, Photoshop CS6, Illustrator CS6</li>
-            <li>Control de versiones: Git/GitHub</li>
+  <div class="wrapper">
+    <header>
+      <nav class="navbar">
+        <div class="brand">
+          <h2>I<span class="brand1">.</span><span class="brand2">AG</span></h2>
+        </div>
+        <ul class="menu">
+          <li><a class="active" href="#main">home</a></li>
+          <li><a class="active" href="#about">about me</a></li>
+          <li><a class="active" href="#portfolio">Portfolio</a></li>
+          <li><a class="active" href="#contacto">Conctact</a></li>
         </ul>
+      </nav>
+    </header>
+    <main class="main" id="#main">
+      <div class="infocontent">
+        <h1>I'am <span>Iván </span>Álvarez González</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident blanditiis pariatur et quas. In corrupti, reprehenderit, exercitationem aut veritatis recusandae autem id delectus optio alias eos ad nostrum. Assumenda, praesentium?</p>
+        <a download href="IvánÁlvarezGonzález.pdf">
+          <button class="download-cv">Download CV</button>
+        </a>
+      </div>
+        <img src="foto.jpg" alt="IvánÁlvarezGonzález">
+    </main>
+  </div>
+  <div class="about" id="about">
+    <img src="foto2.jpg" alt="IvánÁlvarezGonzález">
+    <div class="about-info">
+      <h2>About me</h2>
+      <div class="divider"></div>
+      <p>lorem adsfasdfasdf adf asdf adsf asdfa dfa se adf ase ffadf a fadf sae fasdfaesrf asdf aser afase raf as</p>
+      <p>lorem adsfasdfasdf adf asdf adsf asdfa dfa se adf ase ffadf a fadf sae fasdfaesrf asdf aser afase raf as</p>
+      <button class="download-cv">Read more</button>
     </div>
-    <div class="ImagenPc"><img src="Pc.gif" alt=""></div>
   </div>
-  <div class="Experiencia" id="Experiencia">
-    <p>Mi experiencia laboral</p>
+<div class="portfolio" id="portfolio">
+  <div class="cabezera-portfolio">
+    <h2>My portfolio</h2>
+    <div class="divider"></div>
   </div>
-  <div class="Proyectos" id="Proyectos">
-    <p>Actualmente </p>
+  <div class="contedorproyectos">
+    <div class="proyecto">
+      <img src="Animacion2D.png" alt="">
+      <div class="descripcion-proyecto">
+        <h3>Animación 2D</h3>
+        <p>Descripción del proyecto 1.</p>
+      </div>
+    </div>
+    <div class="proyecto">
+      <img src="AnimationLowPoly.png" alt="">
+      <div class="descripcion-proyecto">
+        <h3>Animación Low Poly</h3>
+        <p>Descripción del proyecto 2.</p>
+      </div>
+    </div>
+    <div class="proyecto">
+      <img src="Impresion3D.png" alt="">
+      <div class="descripcion-proyecto">
+        <h3>Impresión 3D</h3>
+        <p>Descripción del proyecto 3.</p>
+      </div>
+    </div>
   </div>
+</div>
+<div class="contacto" id="contacto">
+  <div class="contenedor-contacto">
+    <div class="cabezera-contacto">
+      <h2>Contact</h2>
+      <div class="divider"></div>
+    </div>
+    <div class="contactar">
+      <h3>If you want contact me you can do it in the next links</h3>
+    </div>
+  </div>
+  <div class="contenedor-links">
+      <a class="github" href="https://github.com/ElKalto"><img src="github.png" alt="Github"></a>
+      <a class="gmail" href="mailto:latuercarota09@gmail.com"><img src="gmail.png" alt="Gmail"></a>
+      <a class="instagram" href="https://www.instagram.com/elnoob3d/"><img src="instagram.png" alt="instagram"></a>
+  </div>
+</div>
 </body>
 </html>
