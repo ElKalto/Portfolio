@@ -285,85 +285,120 @@
   
   /* Media queries para tabletas */
   @media only screen and (min-width: 768px) and (max-width: 1023px) {
-
-    .main img {
-        width: 350px;
-        border: 7px solid rgb(244, 167, 14);
+    .main {
+        width: 100%;
       }
-
-    .about-info{
-        display: flex;
-        flex-direction: column;
-    }
-
-
-    .cabezera-portfolio {
-      width: 100%;
-    }
-
-    .cabezera-portfolio .divider {
+      
+      .about {
+        width: 100%;
+      }
+      
+      .portfolio {
+        width: 100%;
+      }
+      
+      .contact {
         width: 100%;
       }
     
+    .main img {
+      width: 350px;
+      border: 7px solid rgb(244, 167, 14);
+    }
+  
+    .about-info {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: auto auto;
+      gap: 1em;
+      margin-top: 0;
+      margin-left: 0;
+    }
+  
+    .cabezera-portfolio {
+      width: 100%;
+    }
+  
+    .cabezera-portfolio .divider {
+      width: 100%;
+    }
+  
     .contenedor-links {
       justify-content: center;
       align-items: center;
     }
-    
+  
     .contenedor-links a {
       margin: 20px;
     }
   
     .contedorproyectos {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
     }
-
-    .proyecto{
-    margin-top: 70px;
+  
+    .proyecto {
+      margin-top: 70px;
     }
-}
+  }
+  
   /* Media queries para dispositivos móviles */
   @media only screen and (max-width: 767px) {
-
-    .main img {
-        width: 350px;
-        border: 7px solid rgb(244, 167, 14);
+    .main {
+        width: 100%;
       }
-
-    .cabezera-portfolio {
-      width: 100%;
-    }
+      
+      .about {
+        width: 100%;
+      }
+      
+      .portfolio {
+        width: 100%;
+      }
+      
+      .contact {
+        width: 100%;
+      }
     
+      .main img {
+        margin-top: 1000px; /* Ajusta el valor según sea necesario */
+      }
+  
+    .divider{
+    width: 100%;
+    }
+  
     .cabezera-portfolio h2 {
       margin-top: 0;
       margin-left: 0;
     }
-    
+  
     .cabezera-portfolio .divider {
-      margin-left: 500px;
+      margin-left: 0;
     }
-    
+  
     .contenedor-links {
       flex-direction: column;
       justify-content: center;
       align-items: center;
       height: auto;
     }
-    
+  
     .contenedor-links a {
       margin: 10px;
     }
+  
     .contedorproyectos {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-      }
-
-    .proyecto{
-        margin-top: 70px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
     }
-}
+  
+    .proyecto {
+      margin-top: 70px;
+    }
+  }
+  
