@@ -82,12 +82,13 @@ body {
   
   .inicio img {
     margin-left: 100px;
-    margin-top: 50px;
+    margin-top: 95px;
     border: rgb(214, 162, 16) solid;
-    border-width: 4px; 
+    border-width: 4px;
+    max-width: 600px;
+    max-height: 500px;
   }
-  
-  
+
   .texto-inicio {
     background-color: #4a4ae5;
     color: white;
@@ -124,7 +125,7 @@ body {
   
   .sobre-mi-imagen {
     display: flex;
-    margin-left: 50px;
+    margin-right: 100px;
     margin-top: 20px;
     border: rgb(214, 162, 16) solid;
     border-width: 4px;
@@ -199,8 +200,8 @@ body {
   .texto-contacto {
     text-align: center;
     color: white;
-    margin-top: 100px; /* Ajusta aquí el nuevo valor de margen superior */
-    margin-bottom: -200px; /* Ajusta aquí el nuevo valor de margen inferior */
+    margin-top: 100px;
+    margin-bottom: -200px;
     font-size: 18px;
     font-weight: bold;
   }
