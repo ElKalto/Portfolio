@@ -4,51 +4,48 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="style2.css">
+  <title>Portfolio</title><link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="barranavegacion">
-    <div class="Abreviatura">
-      <h2><span class="Abreviatura"></span>I<span class="Abreviatura1">.</span><span class="Abreviatura2">AG</span></h2>
+  <div class="menu">
+    <div class="abreviatura"><span class="abreviatura1">I</span><span class="abreviatura2">.AG</span></div>
+    <div class="lista">
+      <ol>
+        <li><a href="#inicio">Home</a></li>
+        <li><a href="#sobre-mi">About me</a></li>
+        <li><a href="#proyectos">Projects</a></li>
+        <li><a href="#contacto">Contact</a></li>
+      </ol>
     </div>
-      <ul class="menu">
-        <li><a class="active" href="#main">home</a></li>
-        <li><a class="active" href="#about">about me</a></li>
-        <li><a class="active" href="#portfolio">Portfolio</a></li>
-        <li><a class="active" href="#contacto">Conctact</a></li>
-      </ul>
   </div>
-  <div class="wrapper">
-    <main class="main" id="main">
-      <div class="infocontent">
-        <h1><span class="Abreviatura">Iván <span class="Abreviatura2">Álvarez González</span></h1><br>
-        <p>Hola, soy Iván, estudiante del grado superior de programacion multiplataforma.</p><br>
-        <p>Mi relaccion con el mundo de la tecnologia comenzo a una temprana edad y se ha convertido en una parte fundamental de mi vida. En esta pagina podras ver algunos de mis intereses en este mundo tan amplio y apasionante</p><br>
-        <a download href="IvánÁlvarezGonzález.pdf">
-          <button class="download-cv">Download CV</button>
-        </a>
-      </div>
-        <img src="foto.jpg" alt="IvánÁlvarezGonzález">
-    </main>
+  <div class="inicio" id="inicio">
+    <div class="imagen1">
+      <img src="foto.jpg" alt="">
+    </div>
+    <div class="texto-inicio">
+      <h2> I´m 
+      <span class="nombre">Iván </span>Álvarez González </h2>
+      <p>Hello, I'm Iván, a student of the higher degree of multiplatform programming.</p>
+      <p>My relationship with the world of technology began at an early age and has become a fundamental part of my life. On this page you can see some of my interests in this wide and exciting world</p>
+    </div>
   </div>
-  <div class="about" id="about">
-    <img src="foto2.jpg" alt="IvánÁlvarezGonzález">
-    <div class="about-info">
-      <h2>About me</h2>
-      <div class="divider"></div>
-      <h3>Entre mis estudios destacan: </h3><br>
-      <p>Tecnico grado medio en explotacion de sistemas informaticos<br>
-      Tecnico grado superior en desarrollo de aplicaciones multiplataforma</p><br>
-      <h3>De manera autodidacta me he intersado por:</h3><br>
+    <div class="cabezera-sobre-mi" id="sobre-mi">
+      <h2>Sobre mi</h2>
+    </div>
+  <div class="sobre-mi">
+    <div class="texto-sobre-mi">
+      <h3>Among my studies are:</h3>
+      <p>Intermediate degree technician in computer systems exploitation
+        Higher degree technician in multiplatform application development</p>
+      <h3>In a self-taught way I have been interested in:</h3>
       <ul>
-        <li>Animacion 2D y 3D</li>
-        <li>Modelado 3D </li>
-        <li>impresion 3D </li>
-        <li>Edicion de imagen y video</li>
+        <li>Animation 2D and 3D</li>
+        <li>Sculpting 3D </li>
+        <li>Sculpture 3D</li>
+        <li>Image and video editing</li>
       </ul>
       <br>
-      <h3>Para ello he aprendido a utilizar herramientas como:</h3>
+      <h3>For this I have learned to use tools such as:</h3>
       <br>
       <ul>
         <li>Blender</li>
@@ -56,52 +53,59 @@
         <li>Sony Vegas</li>
         <li>Zbrush</li>
       </ul>
-    </div>
-  </div>
-<div class="portfolio" id="portfolio">
-  <div class="cabezera-portfolio">
-    <h2>My portfolio</h2>
-  </div>
-  <div class="divider"></div>
-  <div class="contedorproyectos">
-    <div class="proyecto">
-      <img src="Animacion2D.png" alt="">
-      <div class="descripcion-proyecto">
-        <h3>Animación 2D</h3>
-        <p>Descripción del proyecto 1.</p>
+      <div class="curriculum">
+        <a download href="IvánÁlvarezGonzález.pdf">
+          <button class="download-cv">Download CV</button>
+        </a>
       </div>
     </div>
-    <div class="proyecto">
-      <img src="AnimationLowPoly.png" alt="">
-      <div class="descripcion-proyecto">
-        <h3>Animación Low Poly</h3>
-        <p>Descripción del proyecto 2.</p>
+    <div class="sobre-mi-imagen">
+      <img src="foto2.jpg" alt="">
+    </div>
+  </div>
+
+  
+  <div class="cabezera-proyectos" id="proyectos">
+    <h2>Proyectos</h2>
+  </div>
+  <div class="proyectos">
+    <div class="tabla-proyectos">
+      <div class="item">
+        <h2>Animation 2D</h2>
+      </div>
+      <div class="item">
+        <h2>Animation 3D</h2>
+      </div>
+      <div class="item">
+        <h2>Sculpture 3D</h2>
+      </div>
+      <div class="imagen-proyectos">
+        <video src="goku0001-0250.mp4" controls class="video-item"></video>
+      </div>
+      <div class="imagen-proyectos">
+        <video src="3d.mp4" controls class="video-item"></video>
+      </div>
+      <div class="imagen-proyectos">
+        <video src="leche40001-0160.mp4" controls class="video-item"></video>
       </div>
     </div>
-    <div class="proyecto">
-      <img src="Impresion3D.png" alt="">
-      <div class="descripcion-proyecto">
-        <h3>Impresión 3D</h3>
-        <p>Descripción del proyecto 3.</p>
-      </div>
+  </div>
+     
+
+
+  <div class="cabezera-contactos" id="contacto">
+    <h2>Contactos</h2>
+  </div>
+  <div class="texto-contacto">Si desea contactar conmigo puede usar algunas de los siguientes enlaces</div>
+  <div class="contacto">
+    <div class="tabla-contacto">
+      <div class="icono"><h2>Github</h2></div>
+      <div class="icono"><h2>Instagram</h2></div>
+      <div class="icono"><h2>E-mail</h2></div>
+      <div class="imagen-contacto"><a href="https://github.com/ElKalto"><img src="ControlVersiones.png" alt=""></a></div>
+      <div class="imagen-contacto"><a href="https://www.instagram.com/elnoob3d/"><img src="instagram.png" alt=""></a></div>
+      <div class="imagen-contacto"><a href="mailto:latuercarota09@gmail.com"><img src="gmail.png" alt=""></a></div>
     </div>
   </div>
-</div>
-<div class="contacto" id="contacto">
-  <div class="contenedor-contacto">
-    <div class="cabezera-contacto">
-      <h2>Contact</h2>
-      <div class="divider"></div>
-    </div>
-    <div class="contactar">
-      <h3>If you want contact me you can do it in the next links</h3>
-    </div>
-  </div>
-  <div class="contenedor-links">
-      <a class="github" href="https://github.com/ElKalto"><img src="ControlVersiones.png" alt="ControlVersiones"></a>
-      <a class="gmail" href="mailto:latuercarota09@gmail.com"><img src="gmail.png" alt="Gmail"></a>
-      <a class="instagram" href="https://www.instagram.com/elnoob3d/"><img src="instagram.png" alt="instagram"></a>
-  </div>
-</div>
 </body>
 </html>
