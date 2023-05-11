@@ -52,8 +52,11 @@ body {
   }
   
   .lista li {
-    margin-left: 150px;
+    background-color:rgb(214, 162, 16);
+    margin-left: 6rem;
+    padding: 0.5rem;
     list-style-type: none;
+    border-radius: 1rem;
   }
   
   .lista li a {
@@ -61,14 +64,9 @@ body {
     color: #f9f9f9;
   }
   
-  .lista a {
-    text-decoration: none;
-    padding: 20px;
-  }
-  
   .lista li:hover {
-    background-color: #191c32;
-    transition: ease-in .4s;
+    background-color: #4a4ae5;
+    transition: ease-in .2s;
   }
   
   .inicio {
